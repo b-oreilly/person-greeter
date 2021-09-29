@@ -1,17 +1,17 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <PersonGreeter/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import PersonGreeter from '@/components/PersonGreeter.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    PersonGreeter
   }
 }
 </script>
@@ -22,7 +22,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #313131;
   margin-top: 60px;
 }
 </style>
